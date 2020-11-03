@@ -17,7 +17,7 @@ Implementing Backpropagation
 
 ## How to launch the code?
 
-- Firstly, you should open the corresponding notebook in [Google Colaboratory service](https://colab.research.google.com/)
+- Firstly, you should open the corresponding notebook in [Google Colaboratory service](https://colab.research.google.com/) or locally on your computer with [Jupyter Notebook](https://jupyter.org/install.html).
 
 - In each notebook the code is arranged in a sequential way. In order to reproduce the corresponding results, you need to open a notebook in Google colab (preferably using GPU runtime) and run each cell of the code sequentially, then wait for the result to run.
 
