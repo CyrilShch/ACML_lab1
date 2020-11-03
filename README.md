@@ -5,21 +5,18 @@ Implementing Backpropagation
 
 ## Prerequisites
 
-- Python 3
-- Google Colaboratory service
-- PyTorch 1.4.0, Tensorflow 2.1.0, Keras 2.3.0
-
-## Datasets info
-
-- MNIST and CIFAR-10 datasets were got from keras.datasets module:  [MNIST dataset](https://keras.io/datasets/#mnist-database-of-handwritten-digits) | [CIFAR-10 dataset](https://keras.io/datasets/#cifar10-small-image-classification)
-- Omniglot dataset was got from torchvision.datasets module: [Omniglot dataset](https://github.com/pytorch/vision/blob/master/torchvision/datasets/omniglot.py)
+- Python 3.x
+- Google Colaboratory service/ Jupyter Notebook
+- NumPy 1.18.5
+- Matplotlib 3.2.2
 
 
 ## How to launch the code?
 
 - Firstly, you should open the corresponding notebook in [Google Colaboratory service](https://colab.research.google.com/) or locally on your computer with [Jupyter Notebook](https://jupyter.org/install.html).
 
-- In each notebook the code is arranged in a sequential way. In order to reproduce the corresponding results, you need to open a notebook in Google colab (preferably using GPU runtime) and run each cell of the code sequentially, then wait for the result to run.
+- In the notebook the code is arranged in a sequential way. In order to reproduce the corresponding results, you need to open a notebook in Google colab (preferably using GPU runtime) and run each cell of the code sequentially, then wait for the result to run.
 
-- The following training parameters are available for modification: the number of epochs ("epochs"), the loss criterion ("criterion"), the optimizer algorithm during training mode ("optimizer") and the learning rate scheduler ("scheduler"). 
+- The following training parameters are available for modification: the number of iterations ("iterations"), the learning rate ("learning rate"), weight decay ("weight decay"). 
+
 
